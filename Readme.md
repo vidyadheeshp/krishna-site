@@ -1,8 +1,28 @@
-# Temple Website – Static Website Project Documentation
+# Udupi Krishna Math — Static Website Project Documentation
+
+# Temple Identity
+
+| Field         | Details                                              |
+|---------------|------------------------------------------------------|
+| Temple Name   | Udupi Krishna Math                                   |
+| Also Known As | Sri Krishna Matha / Udupi Sri Krishna Temple         |
+| Deity         | Lord Sri Krishna (Bala Krishna)                      |
+| Founded By    | Jagadguru Sri Madhvacharya (Anandatirtha)            |
+| Founded In    | 1285 AD                                              |
+| Philosophy    | Dvaita Vedanta (Tattvavada)                          |
+| Architecture  | Dravidian / Kerala-Karnataka Temple Style            |
+| Location      | Car Street, Udupi — 576101, Karnataka, India         |
+| Phone         | +91 82200 00000                                      |
+| Email         | info@udupikrishnamath.org                            |
+| Website       | https://udupikrishnamath.org                         |
+| Famous For    | Kanakana Kindi (Kanakadasa's devotion window),       |
+|               | Paryaya Festival, Ashtamatha tradition               |
+
+---
 
 # Project Overview
 
-The Temple Website is a modern, responsive, and elegant static website designed to provide devotees and visitors with essential information about the temple, services offered, temple timings, gallery, contact information, and testimonials.
+The Udupi Krishna Math website is a modern, responsive, and elegant static website designed to provide devotees and visitors with essential information about the temple, services offered, temple timings, gallery, contact information, and testimonials.
 
 The website is intended to be lightweight, SEO-friendly, mobile responsive, and easily deployable on platforms such as GitHub Pages and Netlify.
 
