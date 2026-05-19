@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photo Gallery — Sri Krishna Mandir, Vrindavan</title>
+  <meta name="description" content="Browse our beautiful gallery of temple photos, festival celebrations, special poojas, and cultural events at Sri Krishna Mandir, Vrindavan." />
+  <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-light" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo" aria-label="Sri Krishna Mandir Home">
+        <div class="logo-icon" aria-hidden="true">🛕</div>
+        <div>
+          <div class="logo-name">Sri Krishna Mandir</div>
+          <div class="logo-sub">Vrindavan, UP</div>
+        </div>
+      </a>
+      <ul class="nav-menu" role="list">
+        <li><a href="index.html"        class="nav-link">Home</a></li>
+        <li><a href="about.html"        class="nav-link">About</a></li>
+        <li><a href="services.html"     class="nav-link">Services</a></li>
+        <li><a href="timings.html"      class="nav-link">Timings</a></li>
+        <li><a href="gallery.html"      class="nav-link active">Gallery</a></li>
+        <li><a href="events.html"       class="nav-link">Events</a></li>
+        <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+        <li><a href="contact.html"      class="nav-link">Contact</a></li>
+        <li><a href="contact.html"      class="nav-link nav-donate">Donate</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="nav-overlay" aria-hidden="true"></div>
+
+  <!-- PAGE HERO -->
+  <header class="page-hero" role="banner">
+    <div class="page-hero-content">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="sep" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
+        <span aria-current="page">Gallery</span>
+      </nav>
+      <h1>Temple Gallery</h1>
+      <p>A visual journey through our sacred spaces, joyful festivals, and devotional moments.</p>
+    </div>
+  </header>
+
+  <!-- GALLERY -->
+  <section class="bg-light">
+    <div class="container">
+      <!-- Filter Buttons -->
+      <div class="gallery-filters" role="group" aria-label="Gallery filters">
+        <button class="filter-btn active" data-filter="all"      >All Photos</button>
+        <button class="filter-btn"        data-filter="exterior" >Temple Exterior</button>
+        <button class="filter-btn"        data-filter="interior" >Temple Interior</button>
+        <button class="filter-btn"        data-filter="festival" >Festivals</button>
+        <button class="filter-btn"        data-filter="pooja"    >Poojas</button>
+        <button class="filter-btn"        data-filter="cultural" >Cultural Events</button>
+      </div>
+
+      <!-- Masonry Grid -->
+      <div class="gallery-masonry">
+
+        <div class="gal-item tall" data-category="exterior" data-aos="zoom-in" data-lightbox data-caption="Sri Krishna Mandir — Grand Entrance">
+          <div class="gal-ph" role="img" aria-label="Temple grand entrance">
+            <span>🛕</span><span class="gal-label">Temple Entrance</span>
+          </div>
+          <div class="gal-overlay" aria-hidden="true"><i class="fas fa-expand-arrows-alt"></i><span class="gal-ov-text">View</span></div>
+        </div>
+
+        <div class="gal-item" data-category="festival" data-aos="zoom-in" data-aos-delay="50" data-lightbox data-caption="Janmashtami 2025 — Midnight Aarti">
+          <div class="gal-ph" role="img" aria-label="Janmashtami midnight aarti">
+            <span>🪔</span><span class="gal-label">Janmashtami Aarti</span>
+          </div>
+          <div class="gal-overlay" aria-hidden="true"><i class="fas fa-expand-arrows-alt"></i><span class="gal-ov-text">View</span></div>
+        </div>
+
+        <div class="gal-item" data-category="interior" data-aos="zoom-in" data-aos-delay="100" data-lightbox data-caption="Radha Krishna Shrine — Main Sanctum">
+          <div class="gal-ph" role="img" aria-label="Radha Krishna shrine">
+            <span>🌸</span><span class="gal-label">Radha Krishna Shrine</span>
+          </div>
+          <div class="gal-overlay" aria-hidden="true"><i class="fas fa-expand-arrows-alt"></i><span class="gal-ov-text">View</span></div>
+        </div>
+
+        <div class="gal-item tall" data-category="festival" data-aos="zoom-in" data-aos-delay="150" data-lightbox data-caption="Holi Utsav 2025 — Colourful Celebrations">
+          <div class="gal-ph" role="img" aria-label="Holi festival celebration">
+            <span>🌈</span><span class="gal-label">Holi Utsav</span>
+          </div>
+          <div class="gal-overlay" aria-hidden="true"><i class="fas fa-expand-arrows-alt"></i><span class="gal-ov-text">View</span></div>
+        </div>
+
+        <div class="gal-item" data-category="pooja" data-aos="zoom-in" data-aos-delay="100" data-lightbox data-caption="Abhishekam Ceremony">
+          <div class="gal-ph" role="img" aria-label="Abhishekam ceremony">
+            <span>🪬</span><span class="gal-label">Abhishekam</span>
+          </div>
+          <div class="gal-overlay" aria-hidden="true"><i class="fas fa-expand-arrows-alt"></i><span class="gal-ov-text">View</span></div>
+        </div>
+
+        <div class="gal-item" data-category="exterior" data-aos="zoom-in" data-aos-delay="50" data-lightbox data-caption="Temple Shikhara at Sunset">
+          <div class="gal-ph" role="img" aria-label="Temple shikhara at sunset">
+            <span>🌅</span><span class="gal-label">Temple at Sunset</span>
+          </div>
+          <div class="gal-overlay" aria-hidden="true"><i class="fas fa-expand-arrows-alt"></i><span class="gal-ov-text">View</span></div>
+        </div>
+
+        <div class="gal-item" data-category="cultural" data-aos="zoom-in" data-aos-delay="100" data-lightbox data-caption="Ras Leela Performance">
+          <div class="gal-ph" role="img" aria-label="Ras leela performance">
+            <span>💃</span><span class="gal-label">Ras Leela</span>
+          </div>
+          <div class="gal-overlay" aria-hidden="true"><i class="fas fa-expand-arrows-alt"></i><span class="gal-ov-text">View</span></div>
+        </div>
+
+        <div class="gal-item tall" data-category="interior" data-aos="zoom-in" data-aos-delay="150" data-lightbox data-caption="Temple Hall — Decorated for Janmashtami">
+          <div class="gal-ph" role="img" aria-label="Decorated temple hall">
+            <span>✨</span><span class="gal-label">Temple Decoration</span>
+          </div>
+          <div class="gal-overlay" aria-hidden="true"><i class="fas fa-expand-arrows-alt"></i><span class="gal-ov-text">View</span></div>
+        </div>
+
+        <div class="gal-item" data-category="pooja" data-aos="zoom-in" data-aos-delay="50" data-lightbox data-caption="Sandhya Aarti — Evening Lamps">
+          <div class="gal-ph" role="img" aria-label="Sandhya aarti evening lamps">
+            <span>🔥</span><span class="gal-label">Sandhya Aarti</span>
+          </div>
+          <div class="gal-overlay" aria-hidden="true"><i class="fas fa-expand-arrows-alt"></i><span class="gal-ov-text">View</span></div>
+        </div>
+
+        <div class="gal-item" data-category="festival" data-aos="zoom-in" data-aos-delay="100" data-lightbox data-caption="Govardhan Puja — Annakut Offering">
+          <div class="gal-ph" role="img" aria-label="Govardhan puja annakut">
+            <span>🍱</span><span class="gal-label">Annakut Seva</span>
+          </div>
+          <div class="gal-overlay" aria-hidden="true"><i class="fas fa-expand-arrows-alt"></i><span class="gal-ov-text">View</span></div>
+        </div>
+
+        <div class="gal-item" data-category="cultural" data-aos="zoom-in" data-aos-delay="150" data-lightbox data-caption="Bhajan Sandhya — Devotional Music Evening">
+          <div class="gal-ph" role="img" aria-label="Bhajan sandhya evening">
+            <span>🎵</span><span class="gal-label">Bhajan Sandhya</span>
+          </div>
+          <div class="gal-overlay" aria-hidden="true"><i class="fas fa-expand-arrows-alt"></i><span class="gal-ov-text">View</span></div>
+        </div>
+
+        <div class="gal-item" data-category="exterior" data-aos="zoom-in" data-aos-delay="50" data-lightbox data-caption="Temple Gardens — Sacred Tulsi Grove">
+          <div class="gal-ph" role="img" aria-label="Temple gardens with tulsi">
+            <span>🌿</span><span class="gal-label">Temple Gardens</span>
+          </div>
+          <div class="gal-overlay" aria-hidden="true"><i class="fas fa-expand-arrows-alt"></i><span class="gal-ov-text">View</span></div>
+        </div>
+
+        <div class="gal-item tall" data-category="pooja" data-aos="zoom-in" data-aos-delay="100" data-lightbox data-caption="Homam — Sacred Fire Ritual">
+          <div class="gal-ph" role="img" aria-label="Sacred fire ritual homam">
+            <span>🌟</span><span class="gal-label">Homam Ceremony</span>
+          </div>
+          <div class="gal-overlay" aria-hidden="true"><i class="fas fa-expand-arrows-alt"></i><span class="gal-ov-text">View</span></div>
+        </div>
+
+        <div class="gal-item" data-category="festival" data-aos="zoom-in" data-aos-delay="150" data-lightbox data-caption="Radhashtami — Flower Decoration">
+          <div class="gal-ph" role="img" aria-label="Radhashtami flower decoration">
+            <span>🌺</span><span class="gal-label">Radhashtami</span>
+          </div>
+          <div class="gal-overlay" aria-hidden="true"><i class="fas fa-expand-arrows-alt"></i><span class="gal-ov-text">View</span></div>
+        </div>
+
+        <div class="gal-item" data-category="cultural" data-aos="zoom-in" data-aos-delay="50" data-lightbox data-caption="Vedic Discourse — Srimad Bhagavatam">
+          <div class="gal-ph" role="img" aria-label="Vedic discourse session">
+            <span>📖</span><span class="gal-label">Vedic Discourse</span>
+          </div>
+          <div class="gal-overlay" aria-hidden="true"><i class="fas fa-expand-arrows-alt"></i><span class="gal-ov-text">View</span></div>
+        </div>
+
+        <div class="gal-item" data-category="interior" data-aos="zoom-in" data-aos-delay="100" data-lightbox data-caption="Meditation Hall — Inner Sanctum">
+          <div class="gal-ph" role="img" aria-label="Meditation hall interior">
+            <span>🧘</span><span class="gal-label">Meditation Hall</span>
+          </div>
+          <div class="gal-overlay" aria-hidden="true"><i class="fas fa-expand-arrows-alt"></i><span class="gal-ov-text">View</span></div>
+        </div>
+
+        <div class="gal-item" data-category="festival" data-aos="zoom-in" data-aos-delay="150" data-lightbox data-caption="Diwali Deepotsav — Thousand Lamps">
+          <div class="gal-ph" role="img" aria-label="Diwali deepotsav thousand lamps">
+            <span>✨</span><span class="gal-label">Diwali Deepotsav</span>
+          </div>
+          <div class="gal-overlay" aria-hidden="true"><i class="fas fa-expand-arrows-alt"></i><span class="gal-ov-text">View</span></div>
+        </div>
+
+        <div class="gal-item tall" data-category="exterior" data-aos="zoom-in" data-aos-delay="50" data-lightbox data-caption="Temple at Dawn — Morning Glow">
+          <div class="gal-ph" role="img" aria-label="Temple at dawn">
+            <span>🌄</span><span class="gal-label">Temple at Dawn</span>
+          </div>
+          <div class="gal-overlay" aria-hidden="true"><i class="fas fa-expand-arrows-alt"></i><span class="gal-ov-text">View</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="background:var(--cream);padding:60px 0;text-align:center;">
+    <div class="container" data-aos="fade-up">
+      <h2 style="color:var(--maroon);margin-bottom:12px;">Share Your Darshan Moments</h2>
+      <p style="max-width:500px;margin:0 auto 28px;">Tag us on Instagram <strong style="color:var(--maroon);">@SriKrishnaMandir</strong> with your temple photos and be featured in our gallery.</p>
+      <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+        <a href="#" class="btn btn-primary"><i class="fab fa-instagram"></i> Follow on Instagram</a>
+        <a href="contact.html" class="btn btn-outline"><i class="fas fa-envelope"></i> Submit Photos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo-wrap">
+            <div class="logo-icon" aria-hidden="true">🛕</div>
+            <div>
+              <div class="footer-brand-name">Sri Krishna Mandir</div>
+              <div class="footer-brand-sub">Vrindavan, Uttar Pradesh</div>
+            </div>
+          </div>
+          <p class="footer-about-p">A sacred temple dedicated to Lord Sri Krishna, welcoming all devotees seeking peace, divine blessings, and spiritual fulfilment.</p>
+          <div class="footer-social" aria-label="Social media links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">    <i class="fas fa-chevron-right"></i> Home</a></li>
+            <li><a href="about.html">    <i class="fas fa-chevron-right"></i> About Temple</a></li>
+            <li><a href="services.html"> <i class="fas fa-chevron-right"></i> Sevas &amp; Services</a></li>
+            <li><a href="timings.html">  <i class="fas fa-chevron-right"></i> Temple Timings</a></li>
+            <li><a href="gallery.html">  <i class="fas fa-chevron-right"></i> Photo Gallery</a></li>
+            <li><a href="events.html">   <i class="fas fa-chevron-right"></i> Events</a></li>
+            <li><a href="contact.html">  <i class="fas fa-chevron-right"></i> Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Gallery Categories</h4>
+          <ul>
+            <li><a href="gallery.html"><i class="fas fa-chevron-right"></i> Temple Exterior</a></li>
+            <li><a href="gallery.html"><i class="fas fa-chevron-right"></i> Temple Interior</a></li>
+            <li><a href="gallery.html"><i class="fas fa-chevron-right"></i> Festivals</a></li>
+            <li><a href="gallery.html"><i class="fas fa-chevron-right"></i> Poojas</a></li>
+            <li><a href="gallery.html"><i class="fas fa-chevron-right"></i> Cultural Events</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span>Temple Road, Vrindavan — 281121,<br/>Uttar Pradesh, India</span></div>
+          <div class="footer-contact-item"><i class="fas fa-phone"></i><span>+91 98765 43210</span></div>
+          <div class="footer-contact-item"><i class="fas fa-envelope"></i><span>info@srikrishnamandir.org</span></div>
+          <div class="footer-contact-item"><i class="fas fa-clock"></i><span>Open daily: 5:30 AM – 9:00 PM</span></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2026 <span>Sri Krishna Mandir</span>. All rights reserved. Jai Shri Krishna 🙏</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="contact.html">Feedback</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox">
+    <div class="lightbox-wrap">
+      <button class="lb-close" id="lb-close" aria-label="Close lightbox"><i class="fas fa-times"></i></button>
+      <img class="lb-img" id="lb-img" src="" alt="Gallery image" />
+      <button class="lb-prev" id="lb-prev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
+      <button class="lb-next" id="lb-next" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>
+      <p class="lb-caption" id="lb-caption"></p>
+    </div>
+  </div>
+
+  <button class="back-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+  <script src="js/navbar.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+/* ============================================================
+   SRI KRISHNA MANDIR — Responsive Stylesheet
+   ============================================================ */
+
+/* ---- Tablet: ≤ 1024px ---- */
+@media (max-width: 1024px) {
+  :root { --section-pad: 65px 0; }
+
+  .quick-info-grid { grid-template-columns: repeat(2, 1fr); }
+  .services-grid-home { grid-template-columns: repeat(2, 1fr); }
+  .events-grid   { grid-template-columns: repeat(2, 1fr); }
+  .footer-grid   { grid-template-columns: 1fr 1fr; gap: 36px; }
+  .stats-grid    { grid-template-columns: repeat(2, 1fr); gap: 24px; }
+  .deity-grid    { grid-template-columns: repeat(2, 1fr); }
+  .timings-grid  { grid-template-columns: 1fr; }
+  .about-grid    { gap: 40px; }
+  .contact-layout { grid-template-columns: 1fr; }
+  .events-layout  { grid-template-columns: 1fr; }
+  .news-sidebar   { position: static; }
+  .gallery-masonry { grid-template-columns: repeat(2, 1fr); }
+  .testimonials-grid      { grid-template-columns: repeat(2, 1fr); }
+  .testimonials-full-grid { grid-template-columns: repeat(2, 1fr); }
+  .services-full-grid     { grid-template-columns: repeat(2, 1fr); }
+  .event-full-card        { grid-template-columns: 160px 1fr; }
+}
+
+/* ---- Tablet: ≤ 900px ---- */
+@media (max-width: 900px) {
+  .welcome-grid  { grid-template-columns: 1fr; gap: 40px; }
+  .welcome-img-wrap { order: -1; }
+  .welcome-img-placeholder { height: 340px; }
+  .welcome-badge { bottom: -14px; right: -10px; width: 90px; height: 90px; }
+  .welcome-badge .years { font-size: 1.5rem; }
+
+  .about-grid   { grid-template-columns: 1fr; gap: 36px; }
+  .about-grid.reverse { direction: ltr; }
+  .about-img-box { height: 300px; }
+
+  .gallery-preview-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 200px);
+  }
+  .gallery-item.featured { grid-row: span 1; }
+
+  .events-layout { grid-template-columns: 1fr; }
+  .event-full-card { grid-template-columns: 1fr; }
+  .efc-img { min-height: 180px; }
+  .efc-img .event-img-ph { min-height: 180px; }
+}
+
+/* ---- Mobile: ≤ 768px ---- */
+@media (max-width: 768px) {
+  :root { --section-pad: 55px 0; --nav-h: 66px; }
+
+  /* Navbar mobile */
+  .hamburger { display: flex; }
+  .nav-menu {
+    position: fixed; top: 0; right: -100%; width: 75%; max-width: 300px;
+    height: 100vh; background: rgba(26,10,0,.98);
+    flex-direction: column; align-items: flex-start;
+    padding: 90px 28px 40px; gap: 4px;
+    transition: right 0.35s ease; box-shadow: -5px 0 30px rgba(0,0,0,.4);
+  }
+  .nav-menu.open { right: 0; }
+  .nav-link { width: 100%; padding: 12px 16px; font-size: .95rem; border-radius: var(--r-md); }
+  .nav-link::after { display: none; }
+  .nav-link:hover,.nav-link.active { background: rgba(212,175,55,.1); }
+  .nav-overlay {
+    position: fixed; inset: 0; background: rgba(0,0,0,.5);
+    z-index: 999; opacity: 0; visibility: hidden; transition: var(--t);
+  }
+  .nav-overlay.active { opacity: 1; visibility: visible; }
+
+  /* Sections */
+  .quick-info-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
+  .services-grid-home { grid-template-columns: 1fr; max-width: 460px; margin: 0 auto; }
+  .events-grid { grid-template-columns: 1fr; max-width: 480px; margin: 0 auto; }
+  .testimonials-grid { grid-template-columns: 1fr; max-width: 480px; margin: 0 auto; }
+  .testimonials-full-grid { grid-template-columns: 1fr; max-width: 480px; margin: 0 auto; }
+  .services-full-grid { grid-template-columns: 1fr; max-width: 460px; margin: 0 auto; }
+  .deity-grid { grid-template-columns: 1fr; max-width: 380px; margin: 0 auto; }
+  .gallery-masonry { grid-template-columns: repeat(2, 1fr); }
+
+  .footer-grid { grid-template-columns: 1fr; gap: 30px; }
+  .stats-grid  { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+  .stat-number { font-size: 2.2rem; }
+
+  /* Hero */
+  .hero-om  { font-size: 2.8rem; }
+  .hero-cta { flex-direction: column; align-items: center; }
+  .btn { width: 100%; max-width: 280px; justify-content: center; }
+
+  /* Gallery preview */
+  .gallery-preview-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 170px);
+  }
+  .gallery-item.featured { grid-row: span 1; }
+
+  /* Forms */
+  .form-row { grid-template-columns: 1fr; }
+
+  /* Contact */
+  .contact-layout { grid-template-columns: 1fr; }
+
+  /* Section title */
+  .section-title { margin-bottom: 44px; }
+
+  /* Countdown */
+  .countdown-timer { gap: 10px; }
+  .cd-unit .cd-num { font-size: 1.4rem; min-width: 48px; padding: 8px 10px; }
+
+  /* Event full card */
+  .event-full-card { grid-template-columns: 1fr; }
+  .efc-img .event-img-ph { min-height: 160px; }
+
+  /* Back to top */
+  .back-top { bottom: 20px; right: 20px; width: 42px; height: 42px; }
+
+  /* Footer */
+  .footer-bottom { flex-direction: column; text-align: center; }
+  .footer-bottom-links { justify-content: center; }
+
+  /* Lightbox nav */
+  .lb-prev { left: 4px; }
+  .lb-next { right: 4px; }
+}
+
+/* ---- Small Mobile: ≤ 480px ---- */
+@media (max-width: 480px) {
+  :root { --section-pad: 46px 0; }
+
+  .container { padding: 0 16px; }
+
+  h2 { font-size: 1.5rem; }
+  .hero h1 { font-size: 2.2rem; }
+  .page-hero h1 { font-size: 1.7rem; }
+
+  .quick-info-grid { grid-template-columns: 1fr; max-width: 300px; margin: 0 auto; }
+  .gallery-preview-grid { grid-template-columns: 1fr; grid-template-rows: repeat(5, 160px); }
+  .gallery-masonry { grid-template-columns: 1fr; }
+  .gal-item,.gal-item.tall { height: 200px; }
+
+  .timings-grid { grid-template-columns: 1fr; }
+
+  .hero-om { font-size: 2.2rem; }
+  .welcome-img-placeholder { height: 270px; }
+  .about-img-box { height: 240px; }
+
+  .event-full-card { grid-template-columns: 1fr; }
+
+  .stats-grid { grid-template-columns: 1fr 1fr; gap: 16px; }
+  .stat-number { font-size: 2rem; }
+
+  .footer-grid { gap: 24px; }
+
+  .lightbox { padding: 16px; }
+  .lb-close { top: -38px; font-size: 1.6rem; }
+  .lb-prev,.lb-next { width: 36px; height: 36px; font-size: .9rem; }
+  .lb-prev { left: 0; }
+  .lb-next { right: 0; }
+}
+
+/* ---- Very small: ≤ 360px ---- */
+@media (max-width: 360px) {
+  .hero h1 { font-size: 1.9rem; }
+  .hero h1 .sub-name { letter-spacing: 3px; }
+  .hero-om { font-size: 2rem; }
+  .btn { font-size: .88rem; padding: 11px 22px; }
+}
