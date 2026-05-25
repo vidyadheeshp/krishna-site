@@ -1,28 +1,46 @@
-# Udupi Krishna Math — Static Website Project Documentation
+# Krishnamath Sabha Bhavan — Static Website Project Documentation
 
 # Temple Identity
 
 | Field         | Details                                              |
 |---------------|------------------------------------------------------|
-| Temple Name   | Udupi Krishna Math                                   |
+| Temple Name   | Krishnamath Sabha Bhavan                             |
 | Also Known As | Sri Krishna Matha / Udupi Sri Krishna Temple         |
 | Deity         | Lord Sri Krishna (Bala Krishna)                      |
 | Founded By    | Jagadguru Sri Madhvacharya (Anandatirtha)            |
 | Founded In    | 1285 AD                                              |
 | Philosophy    | Dvaita Vedanta (Tattvavada)                          |
 | Architecture  | Dravidian / Kerala-Karnataka Temple Style            |
-| Location      | Car Street, Udupi — 576101, Karnataka, India         |
-| Phone         | +91 82200 00000                                      |
-| Email         | info@udupikrishnamath.org                            |
+| Location      | RGM4+RWJ, Ranade Colony, Hindwadi,                   |
+|               | Belagavi, Karnataka 590006                           |
+| Phone         | +91-9886457735                                       |
+| Email         | shonnidibba@gmail.com                                |
 | Website       | https://udupikrishnamath.org                         |
 | Famous For    | Kanakana Kindi (Kanakadasa's devotion window),       |
 |               | Paryaya Festival, Ashtamatha tradition               |
 
 ---
 
+## Google Reviews
+
+| Field          | Details                                              |
+|----------------|------------------------------------------------------|
+| Google Rating  | 4.6 / 5                                              |
+| Total Reviews  | 53                                                   |
+| Listed As      | Sri Krishna temple and Sabha Bhavana                 |
+| Google Maps    | RGM4+RWJ, Ranade Colony, Hindwadi, Belagavi          |
+
+### Review Highlights
+
+- "It's worship place, Matha of Lord Sri Krishna"
+- "Small functions for 100-200 people its good."
+- "Food is provided to the devotees undertaking such activities."
+
+---
+
 # Project Overview
 
-The Udupi Krishna Math website is a modern, responsive, and elegant static website designed to provide devotees and visitors with essential information about the temple, services offered, temple timings, gallery, contact information, and testimonials.
+The Krishnamath Sabha Bhavan website is a modern, responsive, and elegant static website designed to provide devotees and visitors with essential information about the temple, services offered, temple timings, gallery, contact information, and testimonials.
 
 The website is intended to be lightweight, SEO-friendly, mobile responsive, and easily deployable on platforms such as GitHub Pages and Netlify.
 
@@ -581,6 +599,114 @@ temple-website/
 * Copyright information
 
 ---
+
+# Temple Sevas Catalogue
+
+All sevas are available by booking. Contact the temple at **+91-9886457735** for scheduling and details.
+
+---
+
+## Poojas & Sevas (23 Sevas)
+
+| # | Seva Name | Kannada | Price |
+|---|-----------|---------|-------|
+| 1 | Sarva Seva | ಸರ್ವ ಸೇವಾ | ₹1,000 |
+| 2 | KanakaBhisheka | ಕನಕಾಭಿಷೇಕ | ₹500 |
+| 3 | Maha Pooja | ಮಹಾ ಪೂಜಾ | ₹500 |
+| 4 | Ratri Pooja | ರಾತ್ರಿ ಪೂಜಾ | ₹200 |
+| 5 | Alankara | ಅಲಂಕಾರ | ₹200 |
+| 6 | Panchamruta | ಪಂಚಾಮೃತ | ₹100 |
+| 7 | Krishnashtottara Archane | ಕೃಷ್ಣಾಷ್ಟೋತ್ತರ ಅರ್ಚನೆ | ₹50 |
+| 8 | Tottilu Pooje | ತೊಟ್ಟಿಲು ಪೂಜೆ | ₹150 |
+| 9 | Vayustuti Punashcharana | ವಾಯುಸ್ತುತಿ ಪುನಶ್ಚರಣ | ₹250 |
+| 10 | Manyusukta Punashcharana | ಮನ್ಯುಸೂಕ್ತ ಪುನಶ್ಚರಣ | ₹200 |
+| 11 | Hastodaka | ಹಸ್ತೋದಕ | ₹150 |
+| 12 | Shradha (Pindapradana) | ಶ್ರಾದ್ಧ (ಪಿಂಡಪ್ರದಾನ) | ₹500 |
+| 13 | Shradha (Sankalpa) | ಶ್ರಾದ್ಧ (ಸಂಕಲ್ಪ) | ₹350 |
+| 14 | Shradha Mahalaya | ಶ್ರಾದ್ಧ ಮಹಾಲಯ | ₹600 |
+| 15 | Shradha (Mahalaya) Sankalpa | ಶ್ರಾದ್ಧ (ಮಹಾಲಯ) ಸಂಕಲ್ಪ | ₹400 |
+| 16 | Samuhika SatyaNarayana Pooje (1 Month) | ಸಾಮೂಹಿಕ ಸತ್ಯನಾರಾಯಣ ಪೂಜೆ (೧ ತಿಂಗಳು) | ₹100 |
+| 17 | Samuhika SatyaNarayana Pooje (1 Year) | ಸಾಮೂಹಿಕ ಸತ್ಯನಾರಾಯಣ ಪೂಜೆ (೧ ವರ್ಷ) | ₹1,000 |
+| 18 | Maha Pooja (Special) | — | ₹500 |
+| 19 | Pushpsalankara Seva | — | ₹500 |
+| 20 | Huggi Naivedya | — | ₹250 |
+| 21 | Hastodaka (Special) | ಹಸ್ತೋದಕ | ₹250 |
+| 22 | Aaradhana Sarva Seva | — | ₹2,000 |
+| 23 | Annasantarpane | — | ₹1,000 |
+
+---
+
+## Parayana (5 Sevas)
+
+| # | Seva Name | Kannada | Price |
+|---|-----------|---------|-------|
+| 1 | Bhagavata Purana | ಭಾಗವತ ಪುರಾಣ | Contact for Price |
+| 2 | Ramayana Purana | ರಾಮಾಯಣ ಪುರಾಣ | Contact for Price |
+| 3 | Proshtapadi | ಪ್ರೋಷ್ಟಪದಿ | Contact for Price |
+| 4 | Venkatesh Mahatme | ವೇಂಕಟೇಶ್ ಮಹಾತ್ಮೆ | Contact for Price |
+| 5 | Adhika Maasa Mahaatme | ಅಧಿಕ ಮಾಸ ಮಹಾತ್ಮೆ | Contact for Price |
+
+---
+
+## Homas (12 Sevas)
+
+| # | Seva Name | Kannada | Price |
+|---|-----------|---------|-------|
+| 1 | Pavamana Homa | ಪವಮಾನ ಹೋಮ | Contact for Price |
+| 2 | Swayamvara Parvati Homa | ಸ್ವಯಂವರ ಪಾರ್ವತೀ ಹೋಮ | Contact for Price |
+| 3 | Bala Ganapati Homa | ಬಾಲ ಗಣಪತಿ ಹೋಮ | Contact for Price |
+| 4 | Gana Homa | ಗಣ ಹೋಮ | Contact for Price |
+| 5 | PurushaSookta Homa | ಪುರುಷಸೂಕ್ತ ಹೋಮ | Contact for Price |
+| 6 | ShreeSookta Homa | ಶ್ರೀಸೂಕ್ತ ಹೋಮ | Contact for Price |
+| 7 | Manyusookta Homa | ಮನ್ಯುಸೂಕ್ತ ಹೋಮ | Contact for Price |
+| 8 | Vayustuti Punashcharana Homa | ವಾಯುಸ್ತುತಿ ಪುನಶ್ಚರಣ ಹೋಮ | Contact for Price |
+| 9 | Lakshmi Hrudaya Homa | ಲಕ್ಷ್ಮೀ ಹೃದಯ ಹೋಮ | Contact for Price |
+| 10 | Ayushya Homa | ಆಯುಷ್ಯ ಹೋಮ | Contact for Price |
+| 11 | Mrutyunjaya Homa | ಮೃತ್ಯುಂಜಯ ಹೋಮ | Contact for Price |
+| 12 | Dhanvantari Homa | ಧನ್ವಂತರಿ ಹೋಮ | Contact for Price |
+
+---
+
+## Shanti (16 Sevas)
+
+| # | Seva Name | Kannada | Price |
+|---|-----------|---------|-------|
+| 1 | Navagruha Shanti | ನವಗೃಹ ಶಾಂತಿ | Contact for Price |
+| 2 | 60th Shanti | ೬೦ ರ ಶಾಂತಿ | Contact for Price |
+| 3 | 70th Shanti | ೭೦ ರ ಶಾಂತಿ | Contact for Price |
+| 4 | 80th Shanti | ೮೦ ರ ಶಾಂತಿ | Contact for Price |
+| 5 | Sahasra Chandra Darshana Shanti | ಸಹಸ್ರ ಚಂದ್ರ ದರ್ಶನ ಶಾಂತಿ | Contact for Price |
+| 6 | Sandhi Shanti | ಸಂಧಿ ಶಾಂತಿ | Contact for Price |
+| 7 | Kuja Shanti | ಕುಜ ಶಾಂತಿ | Contact for Price |
+| 8 | Rahu Shanti | ರಾಹು ಶಾಂತಿ | Contact for Price |
+| 9 | Shani Shanti | ಶನಿ ಶಾಂತಿ | Contact for Price |
+| 10 | Guru Shanti | ಗುರು ಶಾಂತಿ | Contact for Price |
+| 11 | Ketu Shanti | ಕೇತು ಶಾಂತಿ | Contact for Price |
+| 12 | Chandra Shanti | ಚಂದ್ರ ಶಾಂತಿ | Contact for Price |
+| 13 | Soma Shanti | ಸೋಮ ಶಾಂತಿ | Contact for Price |
+| 14 | Budha Shanti | ಬುಧ ಶಾಂತಿ | Contact for Price |
+| 15 | Shukra Shanti | ಶುಕ್ರ ಶಾಂತಿ | Contact for Price |
+| 16 | Gruhana Shanti | ಗೃಹಣ ಶಾಂತಿ | Contact for Price |
+
+---
+
+## Samskaras (13 Sevas)
+
+| # | Seva Name | Kannada | Price |
+|---|-----------|---------|-------|
+| 1 | Seemanta | ಸೀಮಂತ | Contact for Price |
+| 2 | Namakarana | ನಾಮಕರಣ | Contact for Price |
+| 3 | Choula | ಚೌಲ | Contact for Price |
+| 4 | Upanayana | ಉಪನಯನ | Contact for Price |
+| 5 | Samavartana | ಸಮಾವರ್ತನ | Contact for Price |
+| 6 | Annaprashana | ಅನ್ನಪ್ರಾಶನ | Contact for Price |
+| 7 | Satyanarayana Pooja Pratyeka | ಸತ್ಯನಾರಾಯಣ ಪೂಜಾ ಪ್ರತ್ಯೇಕ | Contact for Price |
+| 8 | Nootana Vastra Samarpane | ನೂತನ ವಸ್ತ್ರ ಸಮರ್ಪಣೆ | ₹200 |
+| 9 | Vishesha Phala Panchamrta Abhishek | ವಿಶೇಷ ಫಲ ಪಂಚಾಮೃತ ಅಭಿಷೇಕ | ₹150 |
+| 10 | Pushpalankar Seve | ಪುಷ್ಪಾಲಂಕಾರ ಸೇವೆ | ₹150 |
+| 11 | Samoohika Ashlesha Bali | — | ₹300 |
+| 12 | Brahmachari Aaradhane | — | ₹200 |
+| 13 | Rathotsava Seva | ರಥೋತ್ಸವ ಸೇವೆ | ₹2,500 |
 
 # Gallery Requirements
 
